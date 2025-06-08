@@ -1,3 +1,5 @@
+// leetcode --> 1358
+
 class Solution {
     public int numberOfSubstrings(String s) {
         int n = s.length();
@@ -17,3 +19,6 @@ class Solution {
         return count;
     }
 }
+
+// TC--> O(N)
+// SC--> O(1)
